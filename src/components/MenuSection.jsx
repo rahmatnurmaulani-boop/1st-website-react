@@ -24,6 +24,7 @@ export default function MenuSection({ items = [] }) {
       <div className="flex flex-wrap justify-center gap-3 mb-10">
         {categories.map((category) => (
           <button
+            type="button"
             key={category}
             onClick={() => setSelectedCategory(category)}
             className={`px-5 py-2 rounded-2xl text-sm font-medium transition-all duration-200 ${
@@ -46,6 +47,7 @@ export default function MenuSection({ items = [] }) {
               title={item.title}
               desc={item.desc}
               badge={item.badge}
+              image={item.image}
               onSelect={() => setSelectedProduct(item)}
             />
           ))

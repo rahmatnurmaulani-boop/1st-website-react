@@ -20,6 +20,8 @@ export const menuData = [
     desc: "Bagi yang mau nikmat tanpa mikir dua kali",
     badge: "Best Seller",
     category: "Hemat",
+    image:
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=80",
   },
   {
     id: 2,
@@ -27,6 +29,8 @@ export const menuData = [
     desc: "Yang lagi banyak dibicarakan tetangga",
     badge: "Baru",
     category: "Spesial",
+    image:
+      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
   },
   {
     id: 3,
@@ -34,6 +38,8 @@ export const menuData = [
     desc: "Yang selalu dicari, yang selalu ada",
     badge: null,
     category: "Favorit",
+    image:
+      "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=500&q=80",
   },
   {
     id: 4,
@@ -41,6 +47,8 @@ export const menuData = [
     desc: "Untuk momen yang pantas dirayakan",
     badge: null,
     category: "Spesial",
+    image:
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80",
   },
   {
     id: 5,
@@ -48,6 +56,8 @@ export const menuData = [
     desc: "Lembut dan manis pas di lidah",
     badge: "Best Seller",
     category: "Favorit",
+    image:
+      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=500&q=80",
   },
   {
     id: 6,
@@ -55,5 +65,7 @@ export const menuData = [
     desc: "Cocok untuk sarapan pagi praktis",
     badge: null,
     category: "Hemat",
+    image:
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=500&q=80",
   },
 ];
