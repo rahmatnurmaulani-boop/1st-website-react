@@ -7,7 +7,7 @@ export default function HeroSection({ stats = [] }) {
     <>
       {/* HERO BANNER SECTION */}
       <section
-        className="w-full min-h-[520px] md:min-h-[600px] flex items-center bg-cover bg-right md:bg-center bg-no-repeat px-6 md:px-12 py-16"
+        className="w-full min-h-130 md:min-h-150 flex items-center bg-cover bg-right md:bg-center bg-no-repeat px-6 md:px-12 py-16"
         style={{
           backgroundImage: "url('/src/assets/background-banner.webp')",
         }}
