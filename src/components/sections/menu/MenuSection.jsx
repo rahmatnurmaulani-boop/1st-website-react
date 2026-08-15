@@ -7,13 +7,11 @@ export default function MenuSection() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [activeCategory, setActiveCategory] = useState("Semua");
 
-  // Filter daftar kategori unik dari menuData
   const categories = [
     "Semua",
     ...new Set(menuData.map((item) => item.category)),
   ];
 
-  // Filter item berdasarkan kategori yang dipilih
   const filteredItems =
     activeCategory === "Semua"
       ? menuData

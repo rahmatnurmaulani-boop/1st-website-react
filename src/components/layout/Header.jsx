@@ -57,7 +57,7 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* ACTION BUTTON (DESKTOP) - Menggunakan Varian Secondary */}
+        {/* ACTION BUTTON (DESKTOP) */}
         <div className="hidden sm:block">
           <a href="#menu">
             <Button

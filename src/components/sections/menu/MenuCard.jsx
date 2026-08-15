@@ -12,7 +12,7 @@ export default function MenuCard({ item, onSelect }) {
             className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-300"
           />
 
-          {/* BADGE (Jika Ada) */}
+          {/* BADGE */}
           {item.badge && (
             <span className="absolute top-3 left-3 bg-rose-600 text-white text-[10px] px-2.5 py-1 rounded-full font-medium shadow-sm">
               {item.badge}

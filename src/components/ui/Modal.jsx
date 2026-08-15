@@ -5,9 +5,9 @@ export default function Modal({
   onClose,
   title,
   children,
-  maxWidth = "max-w-md", // max-w-sm | max-w-md | max-w-lg | max-w-xl
+  maxWidth = "max-w-md", 
 }) {
-  // Tutup modal saat tombol ESC ditekan
+  
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") {
@@ -16,12 +16,12 @@ export default function Modal({
     };
 
     if (isOpen) {
-      document.body.style.overflow = "hidden"; // Kunci scroll background
+      document.body.style.overflow = "hidden"; 
       window.addEventListener("keydown", handleKeyDown);
     }
 
     return () => {
-      document.body.style.overflow = "unset"; // Kembalikan scroll
+      document.body.style.overflow = "unset"; 
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [isOpen, onClose]);

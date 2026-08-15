@@ -2,7 +2,6 @@ import Modal from "../../ui/Modal";
 import Button from "../../ui/Button";
 
 export default function MenuModal({ item, onClose }) {
-  // Guard Clause: Jika item bernilai null/undefined, jangan rendern apa-apa
   if (!item) return null;
 
   return (

@@ -14,7 +14,7 @@ export default function HeroSection() {
           alt="D'Crumble Bakery Banner"
           className="w-full h-full object-cover object-center opacity-15 mix-blend-multiply"
         />
-        {/* Decorative Blur Circles */}
+        {/* DECORATIVE BLUR CIRCLES */}
         <div className="absolute top-[-10%] right-[-5%] w-72 md:w-96 h-72 md:h-96 bg-rose-200/40 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-[-10%] left-[-5%] w-72 md:w-96 h-72 md:h-96 bg-rose-200/30 rounded-full blur-3xl pointer-events-none" />
       </div>
@@ -64,7 +64,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* STRIP STATISTIK COUNTER (RESPONSIVE SEPENUHNYA) */}
+      {/* STRIP STATISTIK COUNTER */}
       <div className="relative z-10 bg-rose-900 text-white border-t border-white/20 py-6 w-full shadow-inner">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* GRID ADAPTIF: 2 Kolom di Mobile, 5 Kolom di Laptop/Desktop */}
@@ -89,7 +89,6 @@ export default function HeroSection() {
               ))}
 
             {/* LOGO HALAL INDONESIA */}
-            {/* Di Mobile: Mengambil 2 kolom di baris bawah. Di Desktop: Masuk ke kolom ke-5 */}
             <div className="col-span-2 md:col-span-1 flex flex-col justify-center items-center pt-2 md:pt-0 px-2 border-t border-white/10 md:border-t-0">
               <img
                 src={halalLogo}
