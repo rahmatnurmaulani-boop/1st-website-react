@@ -1,12 +1,12 @@
 # D'Crumble Bakery
 
-A responsive bakery landing page built with React and Tailwind CSS as part of my front-end development learning journey.
+A responsive bakery landing page built with React, Vite, and Tailwind CSS as part of my front-end development learning journey.
 
 ## Overview
 
-D'Crumble Bakery is a modern landing page concept designed to showcase bakery products in a clean and responsive interface.
+D'Crumble Bakery is a modern bakery landing page designed to showcase bakery products through a clean, responsive, and interactive user interface.
 
-This project was created to practice building a structured React application, developing reusable components, managing local data, and creating interactive UI elements with Tailwind CSS.
+This project was created to practice building React applications, developing reusable components, managing local data, and creating interactive UI elements with Tailwind CSS.
 
 ## Features
 
@@ -19,7 +19,6 @@ This project was created to practice building a structured React application, de
 * Product detail modal
 * Responsive navigation and footer
 * Halal Indonesia badge integration
-* Reusable UI components
 
 ## Tech Stack
 
@@ -50,19 +49,17 @@ src/
 └── main.jsx
 ```
 
-The project uses a component-based structure to separate layout, sections, reusable UI elements, and application data.
+The project follows a component-based structure to separate layout, sections, reusable UI elements, and application data.
 
 ## Data & Content
 
-The menu content is currently managed through local JavaScript data rather than an external API.
+The bakery menu is currently managed through local JavaScript data rather than an external API.
 
-The project includes sample bakery products with categories such as:
+The project includes sample bakery products organized into several categories, including:
 
 * Hemat
 * Spesial
 * Favorit
-
-Product images are loaded from external image URLs.
 
 ## Getting Started
 
@@ -72,16 +69,16 @@ Make sure you have Node.js and npm installed on your computer.
 
 ### Installation
 
-Clone this repository:
+Clone the repository:
 
 ```bash
-git clone  https://github.com/rahmatnurmaulani-boop/dcrumble-bakery-react.git 
+git clone https://github.com/rahmatnurmaulani-boop/dcrumble-bakery-react.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd 1st-website-react
+cd dcrumble-bakery-react
 ```
 
 Install the dependencies:
@@ -100,11 +97,15 @@ Open the local URL provided by Vite in your browser.
 
 ## Available Scripts
 
+### Development
+
 ```bash
 npm run dev
 ```
 
-Runs the application in development mode.
+Starts the development server with Vite.
+
+### Production Build
 
 ```bash
 npm run build
@@ -112,11 +113,15 @@ npm run build
 
 Builds the application for production.
 
+### Lint
+
 ```bash
 npm run lint
 ```
 
 Checks the project using Oxlint.
+
+### Preview
 
 ```bash
 npm run preview
@@ -130,24 +135,24 @@ Through this project, I practiced:
 
 * Building a React application with Vite
 * Creating reusable React components
-* Organizing components into a scalable folder structure
+* Organizing a front-end project structure
 * Managing local application data
 * Using React state with `useState`
-* Creating category-based filtering
+* Implementing category-based filtering
 * Building interactive modal components
 * Styling interfaces with Tailwind CSS
-* Creating responsive layouts for different screen sizes
-* Using icons with Lucide React
+* Creating responsive layouts
+* Using Lucide React for icons
 * Applying code quality checks with Oxlint
 
 ## Future Improvements
 
-* Add a shopping cart feature
 * Add product search functionality
+* Add a shopping cart
+* Improve accessibility
 * Connect the application to a backend or API
 * Add a real ordering system
-* Improve accessibility
-* Deploy the project online
+* Deploy the application online
 
 ## Project Status
 
@@ -155,6 +160,11 @@ This project is a learning project and part of my ongoing journey in Front-End D
 
 ## Author
 
-Rahmat Nur Maulani
+### Rahmat Nur Maulani
 
-Aspiring Front-End Developer
+Aspiring Front-End Developer with a background in Physics Education.
+
+Currently learning and building projects with modern front-end technologies.
+
+* GitHub: [rahmatnurmaulani-boop](https://github.com/rahmatnurmaulani-boop)
+* LinkedIn: [Rahmat Nur Maulani](https://www.linkedin.com/)
