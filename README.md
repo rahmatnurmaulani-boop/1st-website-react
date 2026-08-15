@@ -75,7 +75,7 @@ Make sure you have Node.js and npm installed on your computer.
 Clone this repository:
 
 ```bash
-git clone https://github.com/rahmatnurmaulani-boop/1st-website-react.git
+git clone  https://github.com/rahmatnurmaulani-boop/dcrumble-bakery-react.git 
 ```
 
 Navigate to the project directory:
